@@ -27,3 +27,4 @@ jobs:
           folder: ./out
           repository-name: lmeiucsd/jsdocsdeploytest
           token: ${{ secrets.DEPLOY_KEY }}
+          branch: main
