@@ -26,4 +26,3 @@ jobs:
         with:
           folder: ./out
           branch: gh-pages-docs
-          target-folder: ./jsdocs
