@@ -25,5 +25,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: ./out
-          branch: main
-          target-folder: jsdocs
+          repository-name: lmeiucsd/jsdocsdeploytest
+          token: ${{ secrets.DEPLOY_KEY }}
