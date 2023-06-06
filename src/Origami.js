@@ -46,7 +46,7 @@ const svgPaths = [
 export class Origami {
   /**
    * @constructor
-   * @param {>} svgPath - an svg path
+   * @param {string} svgPath - an svg path
    */
   constructor() {
     // this number will change when we add SVG
